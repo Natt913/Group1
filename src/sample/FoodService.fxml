@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FoodServiceController">
+   <children>
+      <TabPane prefHeight="480.0" prefWidth="640.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Food Services">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="214.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Services" textAlignment="CENTER">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="110.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appetizers" textAlignment="CENTER">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="78.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calamari" textAlignment="CENTER" />
+                        <Text layoutX="53.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tomato Caprese" textAlignment="CENTER" />
+                        <Text layoutX="59.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zucchini Fritte" textAlignment="CENTER" />
+                        <TextArea layoutX="485.0" layoutY="370.0" prefHeight="40.0" prefWidth="110.0" />
+                        <TextField layoutX="183.0" layoutY="92.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <TextField layoutX="183.0" layoutY="126.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <TextField layoutX="183.0" layoutY="157.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <Text layoutX="122.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrées" textAlignment="CENTER" wrappingWidth="78.02734375">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parmesean Chicken" textAlignment="CENTER" />
+                        <Text layoutX="60.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shrimp Scampi" textAlignment="CENTER" />
+                        <Text layoutX="58.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beef Tenderloin" textAlignment="CENTER" />
+                        <Label layoutX="281.0" layoutY="61.0" text="\$" />
+                        <Label layoutX="272.0" layoutY="97.0" text="7.00" />
+                        <Label layoutX="272.0" layoutY="162.0" text="7.00" />
+                        <Label layoutX="268.0" layoutY="131.0" text="10.00" />
+                        <TextField layoutX="183.0" layoutY="239.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <TextField layoutX="183.0" layoutY="274.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <TextField layoutX="183.0" layoutY="311.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <Text layoutX="45.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mushroom Rissotto" textAlignment="CENTER" />
+                        <TextField layoutX="183.0" layoutY="344.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+                        <Text layoutX="446.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sides" textAlignment="CENTER" wrappingWidth="78.02734375">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Housekeeping">
+               <content>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="643.0" style="-fx-background-color: aed6ff;">
+                     <children>
+                        <Text layoutX="130.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Housekeeping Requests" textAlignment="CENTER">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="225.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tell us what you need!" textAlignment="CENTER" wrappingWidth="193.6708984375" />
+                        <Text layoutX="62.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Towlels" textAlignment="CENTER" wrappingWidth="64.96240234375" />
+                        <TextField fx:id="towelAmount" layoutX="497.0" layoutY="112.0" prefHeight="31.0" prefWidth="80.0" promptText="Amount" />
+                        <Text layoutX="58.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toilet Paper" textAlignment="CENTER" />
+                        <TextField fx:id="toiletPaperAmount" layoutX="497.0" layoutY="149.0" prefHeight="31.0" prefWidth="80.0" promptText="Amount" />
+                        <Text layoutX="63.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shampoo" textAlignment="CENTER" />
+                        <TextField fx:id="shampooAmount" layoutX="497.0" layoutY="184.0" prefHeight="31.0" prefWidth="80.0" promptText="Amount" />
+                        <Text layoutX="56.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conditioner" textAlignment="CENTER" />
+                        <TextField fx:id="conditionerAmount" layoutX="497.0" layoutY="220.0" prefHeight="31.0" prefWidth="80.0" promptText="Amount" />
+                        <Text layoutX="53.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make the bed" textAlignment="CENTER" />
+                        <CheckBox fx:id="makeBed" layoutX="497.0" layoutY="291.0" mnemonicParsing="false" text="Yes, please!" />
+                        <Text layoutX="37.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change the sheets" textAlignment="CENTER" />
+                        <CheckBox fx:id="changeSheets" layoutX="497.0" layoutY="320.0" mnemonicParsing="false" text="Yes, please!" />
+                        <Text layoutX="63.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soap" textAlignment="CENTER" wrappingWidth="64.96240234375" />
+                        <TextField fx:id="soapAmount" layoutX="497.0" layoutY="254.0" prefHeight="31.0" prefWidth="80.0" promptText="Amount" />
+                        <Text layoutX="50.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restock Fridge" textAlignment="CENTER" />
+                        <CheckBox fx:id="stockFridge" layoutX="497.0" layoutY="353.0" mnemonicParsing="false" text="Yes, please!" />
+                        <Text layoutX="44.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clean the room" textAlignment="CENTER" />
+                        <CheckBox fx:id="cleanRoom" layoutX="497.0" layoutY="381.0" mnemonicParsing="false" text="Yes, please!" />
+                        <Button layoutX="287.0" layoutY="402.0" mnemonicParsing="false" text="Submit" />
+                        <Label layoutX="560.0" layoutY="28.0" text="Room #" />
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
