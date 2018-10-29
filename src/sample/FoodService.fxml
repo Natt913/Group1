@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #e0e1f4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FoodServiceController">
+   <children>
+      <Text layoutX="214.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Services" textAlignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="110.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appetizers" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="78.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calamari" textAlignment="CENTER" />
+      <Text layoutX="53.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tomato Caprese" textAlignment="CENTER" />
+      <Text layoutX="59.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zucchini Fritte" textAlignment="CENTER" />
+      <TextArea fx:id="foodTotal" layoutX="486.0" layoutY="370.0" prefHeight="47.0" prefWidth="88.0" promptText="Total" />
+      <TextField fx:id="zucchiniApp" layoutX="183.0" layoutY="92.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="calamariApp" layoutX="183.0" layoutY="126.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="capreseApp" layoutX="183.0" layoutY="157.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <Text layoutX="122.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrées" textAlignment="CENTER" wrappingWidth="78.02734375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="46.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parmesean Chicken" textAlignment="CENTER" />
+      <Label layoutX="281.0" layoutY="61.0" text="\$" />
+      <Text layoutX="60.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shrimp Scampi" textAlignment="CENTER" />
+      <Text layoutX="58.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beef Tenderloin" textAlignment="CENTER" />
+      <Label fx:id="zucchiniPrice" layoutX="272.0" layoutY="97.0" text="7.00" />
+      <Label fx:id="capresePrice" layoutX="272.0" layoutY="162.0" text="7.00" />
+      <Label fx:id="chickenPrice" layoutX="268.0" layoutY="244.0" text="22.00" />
+      <TextField fx:id="parmChicken" layoutX="183.0" layoutY="239.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="shrimpScampi" layoutX="183.0" layoutY="274.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="beefTenderloin" layoutX="183.0" layoutY="311.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <Text layoutX="45.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mushroom Risotto" textAlignment="CENTER" />
+      <TextField fx:id="mushroomRisotto" layoutX="183.0" layoutY="344.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <Text layoutX="446.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sides" textAlignment="CENTER" wrappingWidth="78.02734375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Label layoutX="591.0" layoutY="61.0" text="\$" />
+      <Text layoutX="347.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mixed Vegetables" textAlignment="CENTER" />
+      <Text layoutX="347.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mashed Potaotes" textAlignment="CENTER" />
+      <Text layoutX="362.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ceasar Salad" textAlignment="CENTER" />
+      <TextField fx:id="mixedVeggies" layoutX="486.0" layoutY="94.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="mashedPotatoes" layoutX="486.0" layoutY="126.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="cSalad" layoutX="486.0" layoutY="157.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <Text layoutX="443.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desserts" textAlignment="CENTER" wrappingWidth="84.02734375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Label layoutX="281.0" layoutY="211.0" text="\$" />
+      <Label layoutX="591.0" layoutY="211.0" text="\$" />
+      <Text layoutX="376.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tiramisu" textAlignment="CENTER" />
+      <Text layoutX="365.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Panna Cotta" textAlignment="CENTER" />
+      <Text layoutX="376.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zeppole" textAlignment="CENTER" />
+      <TextField fx:id="tiramisu" layoutX="489.0" layoutY="239.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="pannaCotta" layoutX="489.0" layoutY="274.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <TextField fx:id="zeppole" layoutX="489.0" layoutY="311.0" prefHeight="31.0" prefWidth="77.0" promptText="Quantity" />
+      <Label fx:id="shrimpPrice" layoutX="268.0" layoutY="279.0" text="23.00" />
+      <Label fx:id="beefPrice" layoutX="268.0" layoutY="316.0" text="25.00" />
+      <Label fx:id="calamariPrice" layoutX="268.0" layoutY="130.0" text="10.00" />
+      <Label fx:id="mushroomPrice" layoutX="268.0" layoutY="349.0" text="20.00" />
+      <Button fx:id="submitFood" layoutX="351.0" layoutY="378.0" mnemonicParsing="false" text="Submit Order" />
+      <Label fx:id="veggiePrice" layoutX="582.0" layoutY="99.0" prefHeight="21.0" prefWidth="29.0" text="2.00" />
+      <Label fx:id="potatoPrice" layoutX="581.0" layoutY="131.0" prefHeight="21.0" prefWidth="29.0" text="2.00" />
+      <Label fx:id="saladPrice" layoutX="581.0" layoutY="162.0" prefHeight="21.0" prefWidth="29.0" text="3.00" />
+      <Label fx:id="tiramisuPrice" layoutX="582.0" layoutY="243.0" prefHeight="21.0" prefWidth="29.0" text="7.00" />
+      <Label fx:id="pannaCottaPrice" layoutX="582.0" layoutY="279.0" prefHeight="21.0" prefWidth="29.0" text="6.00" />
+      <Label fx:id="zeppolePrice" layoutX="581.0" layoutY="316.0" prefHeight="21.0" prefWidth="29.0" text="6.00" />
+      <Label fx:id="fSRoomID" layoutX="556.0" layoutY="21.0" text="Room #" />
+   </children>
+</AnchorPane>

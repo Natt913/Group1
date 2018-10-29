@@ -1,30 +1,12 @@
 package sample;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
-public class GuestServicesController {
-
-    //Maintenance Request Screen Ids
-    @FXML
-    Label mRRoomID;
-    @FXML
-    Button submitMaintenanceReqButton;
-    @FXML
-    MenuButton maintenanceCategories;
-    @FXML
-    MenuItem lightingCategory;
-    @FXML
-    MenuItem plumbingCategory;
-    @FXML
-    MenuItem tvCategory;
-    @FXML
-    MenuItem wifiCategory;
-    @FXML
-    TextField maintenanceRequest;
-
-
-    //Food Services Request Screen
+public class FoodServiceController {
     @FXML
     Label fSRoomID;
     @FXML
@@ -83,31 +65,4 @@ public class GuestServicesController {
     Button submitFood;
     @FXML
     TextArea foodTotal;
-
-    //Housekeeping
-    @FXML
-    Label hRRoomID;
-    @FXML
-    TextField towelAmount;
-    @FXML
-    TextField toiletPaperAmount;
-    @FXML
-    TextField shampooAmount;
-    @FXML
-    TextField conditionerAmount;
-    @FXML
-    TextField soapAmount;
-    @FXML
-    CheckBox makeBed;
-    @FXML
-    CheckBox changeSheets;
-    @FXML
-    CheckBox stockFridge;
-    @FXML
-    CheckBox cleanRoom;
-    @FXML
-    Button submitHousekeeping;
-
-
-
 }
