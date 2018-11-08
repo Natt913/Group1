@@ -9,27 +9,16 @@ import javafx.scene.control.TableView;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class EmployeeListController implements Initializable {
+public class EmployeeListController {
 
     @FXML
-    TableView<Table> employeeTable;
+    TableView employeeTable;
     @FXML
-    TableColumn<Table, String> employeeName;
+    TableColumn employeeName;
     @FXML
-    TableColumn<Table, String> employeePosition;
+    TableColumn employeePosition;
     @FXML
-    TableColumn<Table, Boolean> employeePresent;
+    TableColumn employeePresent;
 
 
-    /**
-     * Called to initialize a controller after its root element has been
-     * completely processed.
-     *
-     * @param location  The location used to resolve relative paths for the root object, or
-     *                  <tt>null</tt> if the location is not known.
-     * @param resources The resources used to localize the root object, or <tt>null</tt> if
-     */
-    public void initialize(URL location, ResourceBundle resources) {
-
-    }
 }
