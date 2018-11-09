@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="800.0" fitWidth="1280.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Image/BeachPalmsDarkenedBlurred.jpg" />
+            <Image url="@resources/BeachPalmsDarkenedBlurred.jpg" />
          </image>
       </ImageView>
       <Text layoutX="333.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maintenance Requests" textAlignment="CENTER" wrappingWidth="646.24169921875">
@@ -59,7 +59,7 @@
       </RadioButton>
       <ImageView fx:id="backButton1" fitHeight="94.0" fitWidth="83.0" layoutX="26.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../ResortProject/src/resortoperation/resources/back_button.png" />
+            <Image url="@resources/back_button.png" />
          </image>
       </ImageView>
    </children>
